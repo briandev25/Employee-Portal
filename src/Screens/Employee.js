@@ -50,7 +50,7 @@ function Employee() {
 
   return (
     <div>
-      <div>
+      <div className=" tw-flex tw-items-center tw-justify-between tw-mx-4">
         <h1>Employee Portal</h1>
         <button
           onClick={openNewEmployeeModal}
